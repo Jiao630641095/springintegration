@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoJzp-sys/DemoJzp-sys.iml" filepath="$PROJECT_DIR$/DemoJzp-sys/DemoJzp-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoJzpParent/DemoJzpParent.iml" filepath="$PROJECT_DIR$/DemoJzpParent/DemoJzpParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springintegration.iml" filepath="$PROJECT_DIR$/springintegration.iml" />
+    </modules>
+  </component>
+</project>
