@@ -1,7 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
-    <!--父级依赖-->
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>DemoJzpParent</artifactId>
         <groupId>com.jzp</groupId>
@@ -11,10 +9,19 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>DemoJzp-sys</artifactId>
-    <packaging>war</packaging>
-    <name>DemoJzp-sys Maven Webapp</name>
+    <artifactId>DemoJzp-com</artifactId>
+    <packaging>jar</packaging>
+
+    <name>DemoJzp-com</name>
     <url>http://maven.apache.org</url>
+    <build>
+        <finalName>DemoJzp-com</finalName>
+    </build>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -22,12 +29,5 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.jzp</groupId>
-            <artifactId>DemoJzp-com</artifactId>
-        </dependency>
     </dependencies>
-    <build>
-        <finalName>DemoJzp-sys</finalName>
-    </build>
 </project>

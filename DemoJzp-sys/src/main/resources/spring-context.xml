@@ -38,7 +38,7 @@
 	<context:annotation-config />
 	
 	<!-- 扫描所有spring bean注解 -->
-    <context:component-scan base-package="bhz" />
+    <context:component-scan base-package="DemoJzp" />
 	
 	<!-- 动态代理 -->
 	<aop:aspectj-autoproxy/>

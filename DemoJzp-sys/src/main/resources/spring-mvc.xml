@@ -18,9 +18,9 @@
         <property name="defaultEncoding" value="${env.defaultEncoding}" />
         <property name="maxInMemorySize" value="${upload.maxMemSize}" />
         <property name="maxUploadSize" value="${upload.maxFileSize}" />
-        <property name="uploadTempDir" value="${upload.tempDir}" />
+       <!-- <property name="uploadTempDir" value="${upload.tempDir}" />-->
     </bean>
-    
+
 	<!-- spring view过滤  -->
     <bean id="pageResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
@@ -30,6 +30,6 @@
     </bean>
     
     <!-- spring 扫描所有bhz.sys.web下文件 -->
-    <context:component-scan base-package="bhz" />
+    <context:component-scan base-package="DemoJzp" />
     
 </beans>

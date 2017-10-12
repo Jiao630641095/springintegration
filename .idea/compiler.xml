@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="DemoJzp-sys" />
       </profile>
+      <profile default="false" name="Annotation profile for DemoJzp-com" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="DemoJzp-com" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="DemoJzp-com" target="1.8" />
       <module name="DemoJzp-sys" target="1.8" />
       <module name="DemoJzpParent" target="1.8" />
       <module name="springintegration" target="" />
