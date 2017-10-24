@@ -9,3 +9,6 @@ this is a project for trying spring integration,so it won't be vary nice, but i 
 右键工程名 -> git -> repository -> push，就可将此次commit的内容保存在远程代码管理网站了。push的时候，会要求输入代码托管网站的用户名和密码。   http://www.cnblogs.com/sunada2005/p/4119080.html    
 
 一些配置，以及其他操作   http://blog.csdn.net/milsevol/article/details/72792468
+
+2017.10.24
+加入了新的成员greyword
