@@ -12,3 +12,5 @@ this is a project for trying spring integration,so it won't be vary nice, but i 
 
 2017.10.24
 加入了新的成员greyword
+2017.10.24
+欢迎新成员
